@@ -1,0 +1,43 @@
+.practice-section {
+    background: linear-gradient(135deg, #2980b9, #2c3e50);
+    position: relative;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: #fff;
+  }
+  
+  .practice-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .practice-section .question {
+    margin-bottom: 30px;
+  }
+  
+  .practice-section select {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.1rem;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .practice-section select:hover,
+  .practice-section select:focus {
+    background-color: #fff;
+    color: #007bff;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .practice-section {
+      padding: 30px;
+    }
+  }
+  
